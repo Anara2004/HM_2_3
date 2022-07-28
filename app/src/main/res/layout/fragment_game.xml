@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/img"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageView
+
+            android:id="@+id/firsImg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            tools:src="@drawable/pin"/>
+
+        <ImageView
+            android:id="@+id/secoindImg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="12dp"
+            tools:src="@drawable/twitter"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/thirdImg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            tools:src="@drawable/pin2"/>
+
+        <ImageView
+            android:id="@+id/fourImg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="12dp"
+            tools:src="@drawable/illustration"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_marginTop="12dp"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:id="@+id/answerEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
+        android:hint="Ответ"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/applyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Принять"
+        android:textSize="30sp"/>
+
+
+
+
+</LinearLayout>
